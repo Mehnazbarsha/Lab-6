@@ -1,0 +1,9 @@
+/workspaces/Lab-6/src/main/java/com/example/lab6/service/EmailService.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/service/PasswordService.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/model/PasswordQualityRequest.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/controller/EmailController.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/model/EmailValidationResponse.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/model/PasswordQualityResponse.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/controller/PasswordController.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/model/EmailValidationRequest.java
+/workspaces/Lab-6/src/main/java/com/example/lab6/Lab6Application.java
