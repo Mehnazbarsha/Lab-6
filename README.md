@@ -12,7 +12,7 @@ Both endpoints are fully tested with comprehensive unit tests.
 
 ## Prerequisites
 
-- Java 17 or higher
+- Java 11 or higher
 - Maven 3.6+
 - Git
 
@@ -61,32 +61,26 @@ git clone <your-repository-url>
 cd lab6
 ```
 
-### 2. Make Maven Wrapper Executable (if needed)
+### 2. Build the Project
 
 ```bash
-chmod a+x ./mvnw
-```
-
-### 3. Build the Project
-
-```bash
-./mvnw clean package
+mvn clean package
 ```
 
 This will compile the code and run all unit tests.
 
-### 4. Run the Application
+### 3. Run the Application
 
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 The application will start on `http://localhost:8080`
 
-### 5. Run Tests Only
+### 4. Run Tests Only
 
 ```bash
-./mvnw test
+mvn test
 ```
 
 ## REST API Endpoints
@@ -162,16 +156,12 @@ The project includes comprehensive unit tests for both services:
 
 **Password Tests:**
 - Strong passwords
-- Moderate passwords
 - Weak passwords
 - Empty/null passwords
-- Passwords with various character combinations
 
 **Email Tests:**
 - Valid email formats
 - Invalid formats (no @, multiple @, missing domain, etc.)
-- Empty/null emails
-- Emails with special characters
 
 ## Password Scoring Criteria
 
@@ -205,7 +195,8 @@ An email is considered valid if it meets these requirements:
 
 ## Dependencies
 
-- Spring Boot 3.1.5
+- Spring Boot 2.7.18
 - Spring Web
 - JUnit Jupiter (for testing)
+- Java 11
 
